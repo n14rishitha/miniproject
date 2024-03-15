@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="url-8">
+        <title>
+            Layout one
+        </title>
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+
+            }
+            #container{
+                width: 60%;
+                margin: auto;
+            }
+            #Logo{
+                width: 100%;
+                min-height: 50px;
+                background-color: lightgray;
+                padding-left: 2%;
+                line-height: 50px;
+                margin-bottom: 5px;
+            }
+            #nav{
+                width: 100%;
+                min-height: 30px;
+                background-color: lightgray;
+                line-height: 30px;
+                text-align: center;
+                margin-bottom: 5px;
+            }
+
+            #main{
+                width: 100%;
+                
+            }
+            #sidebar-div{
+                width:20%;
+                min-height: 400px;
+                background-color: lightgray;
+                float: left;
+                text-align: center;
+                line-height: 400px;
+            }
+            #bodyarea-div{
+                width: 75%;
+                min-height: 400px;
+                background-color: lightgrey;
+                float: right;
+                text-align: center;
+                line-height: 400px;
+            }
+            .clearfix::after{
+                content:"";
+                display: block;
+                clear:both;
+            }
+        </style>
+    </head>
+    <body>
+    <div id="container">   
+        <div id="Logo">
+            Logo
+        </div>
+        <div id="nav">
+            Navigation
+        </div>
+        <div id="main" class="clearfix">
+            <div id="sidebar-div">
+                Sidebar
+            </div>
+            <div id="bodyarea-div">
+                Bodyarea
+            </div>
+        </div>
+        <div id="foot">
+            Footer
+        </div>
+    </div> 
+    </body>
+</html>
