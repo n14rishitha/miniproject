@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: url("bg2.jpg");
+    height:800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper-container{
+    width: 70%;
+    height: 700px;
+    margin: auto;
+    position: absolute;
+    top: 8%;
+    left: 15%;   
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 30px;
+    background-color: rgba(168, 163, 163, 0.5);
+    border-radius: 15%;
+    
+}
+.maincontainer{
+    width : 100%;
+    min-height: 360px;
+    top: 20%;
+    display: inline-flex;  
+    margin: 10px;
+}
+
+
+.profile {
+    width: 45%;
+    min-height: 550px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10%;
+    margin-bottom: 10px;
+    background-color:white;
+    padding: 15px;
+    margin-left: 40px;
+}
+h1{
+    left: 0%;
+    font-size: 2.2vh;
+}
+.info1{
+    display: inline-flex;
+}
+
+.savebt{
+    font-weight: bold;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 120.02px;
+    height: 42.66px;
+    border: none;
+    background-color: #f88736;
+    justify-content: center;
+    align-items: center;
+  }
+.img-v{
+    position: relative;
+    width: 100%;
+    height: 200px; 
+    overflow: hidden; 
+    margin: auto;
+    background-size: cover;
+} 
+.container2{
+    width: 50%;
+    float: right;  
+    right: 0%;
+    margin-left: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.accounts{
+    width: 80%;
+    height: 240px;
+    background-color: white;
+    border-radius: 10%;
+    text-decoration: none;
+    margin: auto;
+    margin-bottom: 35px;
+    padding: 10px;
+    margin-left: 5%;
+    
+}
+.editmain{
+    display: inline-flex;
+}
+
+.edit{
+    float: right;
+    margin-left:67px;
+}
+.editbtn{
+    font-weight: bold;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 85.02px;
+    height: 30.66px;
+    border: none;
+    background-color: #828482;
+    justify-content: center;
+
+}
+.inacc{
+    display: inline-flex;
+}
+.amainbtn{
+    width: 50%;
+    float: right;
+    margin-left: 80px;
+    
+    
+}
+.abtn{ 
+    border-radius: 10% / 50%;  
+    box-shadow: none;
+    font-weight: bold;  
+    padding: 5%;
+    width: 75%; 
+    margin: auto;
+    margin-left: 15%;
+    cursor: pointer;
+    border: none;
+}
+
+.bills{
+    width: 80%;
+    height: 290px ;
+    background-color: white;
+    border-radius: 10%;
+    text-decoration: none ;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+.billss{
+    display: inline-flex;
+    
+}
+.btnmain{
+    width: 105px ;
+    float: right;
+    margin: auto;
+    margin-left: 200px;
+}
+
+.billbtn{
+    font-weight: bold;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 85.02px;
+    height: 30.66px;
+    border: none;
+    background-color: #36f836;
+    justify-content: center;
+      
+}
+
